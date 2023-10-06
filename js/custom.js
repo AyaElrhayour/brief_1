@@ -40,3 +40,13 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+//typewriter
+const txtAnim = document.querySelector('p');
+
+new Typewriter(txtAnim , {
+    deleteSpeed: 20
+})
+.changeDelay(20)
+.typeString(' Repair and Maintenance Services Lorem ipsum...')
+.start()
