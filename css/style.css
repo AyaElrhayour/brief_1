@@ -150,6 +150,8 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #0355cc;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .custom_nav-container .form-inline .nav_search-btn {
